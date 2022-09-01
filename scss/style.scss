@@ -1,0 +1,51 @@
+@import "utilities/mapas";
+@import "utilities/mixin";
+
+.contenidoInicio{
+    h1{
+        @include encabezadoUno;
+    }
+    p{
+        font-family: map-get($map: $estilos, $key: font);
+        color: map-get($map: $estilos, $key: colorSecundario);
+        text-align: center;
+        font-size: map-get($map: $estilos, $key: size);
+    }
+    h2{
+        @include encabezadoDos;
+    }
+    h3{
+        @include encabezadoTres;
+    }
+}
+
+
+.contenidoAlbum{
+    h1{
+        @include encabezadoUno;
+    }
+    .contenidoMain{
+        p{
+            font-family: map-get($map: $estilos, $key: font);
+            color: map-get($map: $estilos, $key: colorSecundario);
+            text-align: center;
+            font-size: map-get($map: $estilos, $key: size );
+        }
+    }
+    .portada{
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0rem 2rem 0rem;
+        .imgPortada{
+            width: 20%;
+        }
+    }
+    h2{
+        @include encabezadoDos;
+    }
+    h3{
+        @include encabezadoTres;
+    }
+
+}
+

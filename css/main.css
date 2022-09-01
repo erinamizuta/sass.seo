@@ -1,0 +1,60 @@
+.contenidoInicio h1 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #c6a992;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 3rem; }
+
+.contenidoInicio p {
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 1rem; }
+
+.contenidoInicio h2 {
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 2.7rem;
+  color: #c6a992;
+  margin: 2rem 0rem; }
+
+.contenidoInicio h3 {
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 2.3rem;
+  color: gray;
+  margin: 2rem 0rem; }
+
+.contenidoAlbum h1 {
+  font-family: 'IM Fell DW Pica', serif;
+  color: #c6a992;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 3rem; }
+
+.contenidoAlbum .contenidoMain p {
+  font-family: "Open Sans", sans-serif;
+  color: gray;
+  text-align: center;
+  font-size: 1rem; }
+
+.contenidoAlbum .portada {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem 2rem 0rem; }
+  .contenidoAlbum .portada .imgPortada {
+    width: 20%; }
+
+.contenidoAlbum h2 {
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 2.7rem;
+  color: #c6a992;
+  margin: 2rem 0rem; }
+
+.contenidoAlbum h3 {
+  text-align: center;
+  font-family: 'IM Fell DW Pica', serif;
+  font-size: 2.3rem;
+  color: gray;
+  margin: 2rem 0rem; }
